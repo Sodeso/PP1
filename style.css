@@ -1,16 +1,23 @@
 body {
-    margin: 5px;
     font-family: 'Inter';
+    padding: 5px;
 }
 .logo_text {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
 }
-.link_text {
+.link {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
 }
+nav a {
+    display: inline-block;
+    padding: 5px;
+  }
