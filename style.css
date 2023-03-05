@@ -1,0 +1,16 @@
+body {
+    margin: 5px;
+    font-family: 'Inter';
+}
+.logo_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.link_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
