@@ -8,21 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!--Select2 CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../node_modules/select2/dist/css/select2.min.css" />
     <!--Datatables CSS-->
-    <link href="https://cdn.datatables.net/v/bs5/dt-1.13.3/datatables.min.css" />
+    <link rel="stylesheet" href="../node_modules/datatables.net-bs5/css/dataTables.bootstrap5.min.css" />
     <!--Owl Carousel 2 CSS-->
-    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <!--Font Inter-->
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>index</title>
-
 </head>
 
 <body>
@@ -39,6 +37,12 @@
                 </div>
             </div>
             <div class="col-md-8">
+                <div>
+                    <select class="js-example-basic-single" name="state">
+                        <option value="AL">Русский</option>
+                        <option value="WY">Английский</option>
+                    </select>
+                </div>
             </div>
             <!--links-->
             <div class="col-2">
@@ -49,6 +53,7 @@
             </div>
         </div>
     </header>
+
     <div class="container">
         <div class="row justify-content-center">
             <!--Sidebar-->
@@ -65,6 +70,7 @@
             </div>
         </div>
     </div>
+
     <!--Footer-->
     <div class="container">
         <div class="row justify-content-end">
@@ -73,18 +79,19 @@
             </div>
         </div>
     </div>
+
     <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!--Select2 JS-->
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="../node_modules/select2/dist/js/select2.min.js"></script>
     <!--Datatables JS-->
-    <script src="https://cdn.datatables.net/v/bs5/dt-1.13.3/datatables.min.js"></script>
-    <!--jQuery JS-->
-    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
+    <!--jQuery-->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
     <!--Owl Carousel 2 JS-->
-    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <!--Custom JS-->
+    <script src="../scripts/index.js"></script>
 </body>
 
 </html>
