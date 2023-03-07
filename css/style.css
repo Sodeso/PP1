@@ -2,6 +2,7 @@ body {
     font-family: 'Inter';
     padding: 5px;
 }
+
 .logo_text {
     font-style: normal;
     font-weight: 700;
@@ -11,13 +12,20 @@ body {
     vertical-align: middle;
     margin-left: 10px;
 }
+
 .link {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
 }
+
 nav a {
     display: inline-block;
     padding: 5px;
+}
+
+.image_in_carusel {
+    width: 100px;
+    height: 100px;
 }
